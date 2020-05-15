@@ -46,5 +46,4 @@ public class HelloWorldConfigurationTests {
 				.getForEntity("http://localhost:" + this.port + "/", String.class);
 		assertEquals(HttpStatus.OK, entity.getStatusCode());
 	}
-
 }
